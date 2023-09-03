@@ -1,0 +1,8 @@
+{
+  "engine": "cocos-creator-js",
+  "packages": "packages",
+  "name": "dialog",
+  "id": "b3ea0343-5021-4c26-8b32-6580cfbfd1ae",
+  "version": "2.4.6",
+  "isNew": false
+}
