@@ -9,6 +9,9 @@ export default class NewClass extends cc.Component {
     @property(cc.Label)
     scoreLabel: cc.Label = null;
 
+    @property(cc.Node)
+    backBtn: cc.Node = null;
+
     time:number = 1;
 
     score:number = 0;
@@ -32,9 +35,15 @@ export default class NewClass extends cc.Component {
             bird.getComponent(BirdControl).dieCallback = () => {
                 this.node.destroyAllChildren();
                 this.node.stopAllActions();
-                console.log("死亡");
+
+                this.backBtn.active = true;
+                // console.log("死亡");
             };          
         }))));
+    }
+
+    backView() {
+        cc.director.loadScene("start");
     }
 
 }
