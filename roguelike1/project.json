@@ -1,0 +1,8 @@
+{
+  "engine": "cocos-creator-js",
+  "packages": "packages",
+  "name": "roguelike1",
+  "id": "dfe37f95-2e68-4ced-9b1d-02264623ccc6",
+  "version": "2.4.6",
+  "isNew": false
+}
